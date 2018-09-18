@@ -1,4 +1,4 @@
-# Colorizer
+# Colorizer 🎨 [![Build Status](https://travis-ci.com/getGuaka/Colorizer.svg?branch=master)](https://travis-ci.com/getGuaka/Colorizer)
 
 Colorizer helps adding colors to strings written to the terminal.
 
