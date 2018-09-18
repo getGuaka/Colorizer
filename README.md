@@ -39,16 +39,16 @@ print("I am an underlined red on white string".s.Underline.f.Red.b.White)
 ## Installation
 
 ### Swift Package Manager
-Add `Colorizer` as dependency in your `Package.swift`
+Add `Colorizer` as a dependency in your `Package.swift`
 
-```
-  import PackageDescription
+```swift
+import PackageDescription
 
-  let package = Package(name: "YourPackage",
-    dependencies: [
-      .package(url: "https://github.com/getGuaka/Colorizer.git", from: "0.0.0"),
-    ]
-  )
+let package = Package(name: "YourPackage",
+  dependencies: [
+    .package(url: "https://github.com/getGuaka/Colorizer.git", from: "0.0.0"),
+  ]
+)
 ```
 
 ## License
