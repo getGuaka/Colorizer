@@ -2,8 +2,6 @@
 
 Colorizer helps adding colors to strings written to the terminal.
 
-This package was extracted from the [Swiftline](https://github.com/nsomar/Swiftline) package.
-
 ## Usage
 
 Colorizer helps styling the strings before printing them to the terminal.  You
@@ -39,16 +37,9 @@ print("I am an underlined red on white string".s.Underline.f.Red.b.White)
 ## Installation
 
 ### Swift Package Manager
-Add `Colorizer` as a dependency in your `Package.swift`
 
 ```swift
-import PackageDescription
-
-let package = Package(name: "YourPackage",
-  dependencies: [
-    .package(url: "https://github.com/getGuaka/Colorizer.git", from: "0.0.0"),
-  ]
-)
+.package(url: "https://github.com/getGuaka/Colorizer.git", from: "0.0.0"),
 ```
 
 ## License
