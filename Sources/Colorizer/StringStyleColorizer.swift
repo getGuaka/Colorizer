@@ -7,7 +7,7 @@
 //
 
 
-public extension String {
+extension String {
 
     public struct StringStyleColorizer {
 
