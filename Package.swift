@@ -13,8 +13,6 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/Quick/Quick.git", from: "1.3.1"),
-        .package(url: "https://github.com/Quick/Nimble.git", from: "7.3.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -24,6 +22,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "ColorizerTests",
-            dependencies: ["Colorizer", "Nimble", "Quick"]),
+            dependencies: ["Colorizer"]),
     ]
 )
